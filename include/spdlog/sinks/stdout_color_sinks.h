@@ -6,10 +6,10 @@
 #ifdef _WIN32
 #    include <spdlog/sinks/wincolor_sink.h>
 #else
-#    include <spdlog/sinks/ansicolor_sink.h>
+#    include "spdlog/sinks/ansicolor_sink.h"
 #endif
 
-#include <spdlog/details/synchronous_factory.h>
+#include "spdlog/details/synchronous_factory.h"
 
 namespace spdlog {
 namespace sinks {
